@@ -1,6 +1,8 @@
 import '../../styles/burger.css'
-
 import { ingredients } from '../../data/burger-data'
+import {BurgerStack} from './BurgerStack'
+
+
 
 const BurgerShop = () => {
   console.log(ingredients)
@@ -12,8 +14,8 @@ const BurgerShop = () => {
         <button>Clear Order</button>
       </nav>
       <section>
-        IngredientList component here
-        BurgerStack component here
+        {/* <IngredientList /> */}
+        <BurgerStack /> 
       </section>
     </div>
   )
